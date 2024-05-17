@@ -2,6 +2,9 @@
     "name": "thazh/api-light",
     "description": "A lightweight library is used to build a secure REST API in PHP.",
     "type": "library",
+    "keywords": ["api","restapi","phprestapi"],
+    "homepage": "https://github.com/thazh/api-light",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "Thazh\\ApiLight\\": "src/"
@@ -9,7 +12,9 @@
     },
     "authors": [
         {
-            "name": "Saravanan S"
+            "name": "Saravanan S",
+            "email": "saravanan@thazh.com",
+            "homepage": "https://saravanan.thazh.com"
         }
     ],
     "require": {}
