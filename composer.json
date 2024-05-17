@@ -1,0 +1,16 @@
+{
+    "name": "thazh/api-light",
+    "description": "A lightweight library is used to build a secure REST API in PHP.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "Thazh\\ApiLight\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Saravanan S"
+        }
+    ],
+    "require": {}
+}
