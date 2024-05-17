@@ -6,4 +6,4 @@ Quick Start
 
 Install the library using [composer](https://getcomposer.org):
 
-    php composer.phar require thazh/api-light
+    composer require thazh/api-light
