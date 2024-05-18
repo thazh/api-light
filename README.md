@@ -25,6 +25,8 @@ Install the library using [composer](https://getcomposer.org):
 
 require_once 'vendor/autoload.php';
 
+use Thazh\ApiLight\RestApi;
+
 $options = array(
     'content_type' => 'application/json',
     'request_method' => 'POST',
@@ -37,12 +39,18 @@ $options = array(
     )
 );
 
-$obj = new \Thazh\ApiLight\RestApi($options);
+$obj = new RestApi($options);
 
+/* Custom business logic */
 $output_data = "Hi, " . $obj->request['name'] . "! Your roll no is " . $obj->request['rollno'];
 
+/* Set code 200 for the success response */
 $obj->code = 200;
+
+/* Set API response data */
 $obj->data = $output_data;
 
+/* Print the API response data */
 $obj->print();
+
 ```
