@@ -55,3 +55,18 @@ $obj->data = $output_data;
 $obj->print();
 
 ```
+Post parameters:
+```json
+{
+    "rollno": 10001,
+    "name": "Saravanan S"
+}
+```
+The above sample PHP API outputs the below response
+```json
+{
+    "code": 200,
+    "status": "success",
+    "data": "Hi, Saravanan S! Your roll no is 10001"
+}
+```
