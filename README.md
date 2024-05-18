@@ -20,6 +20,7 @@ Install the library using [composer](https://getcomposer.org):
 
     composer require thazh/api-light
 
+A sample PHP API to validate and process the input data and print the response data
 ```php
 <?php
 
