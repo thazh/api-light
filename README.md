@@ -24,8 +24,6 @@ A sample PHP API to validate and process the input data and print the response d
 ```php
 <?php
 
-require_once 'vendor/autoload.php';
-
 use Thazh\ApiLight\RestApi;
 
 $options = array(
